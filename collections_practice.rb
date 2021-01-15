@@ -27,11 +27,9 @@ end
 array = "blake", "ashley", "scott"
 def kesha_maker(array)
   array.each do |n|
-
-    puts "#{n[2] = "$"}"
-    puts "#{n}"
+    n[2] = "$"
   end
-  #binding.pry
+  array
 end
 kesha_maker(array)
 
