@@ -29,6 +29,7 @@ def kesha_maker(array)
   array.split
   binding.pry
 end
+kesha_maker(array)
 
 def find_a(array)
 
