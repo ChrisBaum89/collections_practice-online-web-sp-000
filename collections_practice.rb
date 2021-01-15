@@ -37,7 +37,7 @@ def find_a(array)
   a_array = Array.new
   array.each do |n|
     if n[0] = "a"
-      a_array << n  
+      a_array << n
     end
   a_array
 end
