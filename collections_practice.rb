@@ -60,7 +60,7 @@ def add_s(array)
       n = n + "s"
       s_array << n
     else
-      s_array = n
+      s_array << n
     end
   end
   s_array
