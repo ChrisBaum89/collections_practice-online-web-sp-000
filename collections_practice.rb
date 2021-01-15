@@ -55,6 +55,5 @@ def add_s(array)
   array.each do |n|
     n = n + "s"
   end
-  array[1] = array[1] - "s"
   array
 end
