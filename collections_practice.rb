@@ -29,6 +29,7 @@ def kesha_maker(array)
   array.each do |n|
     array_split = n.split
     array_split[2] = "$"
+    puts "#{array_split}"
     array_split.join
     binding.pry
   end
