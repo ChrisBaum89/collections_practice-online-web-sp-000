@@ -30,7 +30,7 @@ def kesha_maker(array)
     array_split = n.split
     #puts "#{array_split}"
     puts "#{array_split[2] = "$"}"
-    
+
   end
   #binding.pry
 end
