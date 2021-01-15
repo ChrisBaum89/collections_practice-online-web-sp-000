@@ -53,11 +53,13 @@ end
 
 def add_s(array)
   s_array = Array.new
+  count = 0
   array.each do |n|
-    n = n + "s"
-    s_array << n
+    count += 1
+    if count =! 2
+      n = n + "s"
+      s_array << n
   end
-  s_array[1] = s_array[1] -@ "s"
   s_array
 
 end
