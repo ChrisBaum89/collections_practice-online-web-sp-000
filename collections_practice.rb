@@ -24,14 +24,14 @@ def reverse_array(array)
   array.reverse
 end
 
-array = "blake", "ashley", "scott"
+#array = "blake", "ashley", "scott"
 def kesha_maker(array)
   array.each do |n|
     n[2] = "$"
   end
   array
 end
-puts "#{kesha_maker(array)}"
+#puts "#{kesha_maker(array)}"
 
 def find_a(array)
 
