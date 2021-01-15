@@ -56,11 +56,10 @@ def add_s(array)
   count = 0
   array.each do |n|
     count += 1
-    if count =! 2
+    if count != 2
       n = n + "s"
       s_array << n
     end
   end
   s_array
-
 end
