@@ -30,6 +30,7 @@ def kesha_maker(array)
     array_split = n.split
     array_split[2] = $
     array_split.join
+  end
   binding.pry
 end
 kesha_maker(array)
