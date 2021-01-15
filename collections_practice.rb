@@ -26,7 +26,7 @@ end
 
 array = "blake", "ashley", "scott"
 def kesha_maker(array)
-  array.split
+  array_split = array.split
   binding.pry
 end
 kesha_maker(array)
