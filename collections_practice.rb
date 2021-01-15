@@ -31,7 +31,7 @@ def kesha_maker(array)
     array_split[2] = "$"
     puts "#{array_split}"
     array_split.join
-    binding.pry
+    #binding.pry
   end
   #binding.pry
 end
