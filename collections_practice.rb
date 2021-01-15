@@ -59,5 +59,5 @@ def add_s(array)
   end
   s_array[1] = array - "s"
   s_array
-  
+
 end
