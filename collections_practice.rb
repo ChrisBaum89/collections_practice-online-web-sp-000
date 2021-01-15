@@ -28,11 +28,9 @@ array = "blake", "ashley", "scott"
 def kesha_maker(array)
   array.each do |n|
     array_split = n.split
-    puts "#{array_split}"
-    array_split[2] = "$"
     #puts "#{array_split}"
-    array_split.join
-    #binding.pry
+    array_split[2] = "$"
+    puts "#{array_split}"
   end
   #binding.pry
 end
