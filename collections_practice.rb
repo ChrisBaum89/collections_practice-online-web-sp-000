@@ -59,6 +59,8 @@ def add_s(array)
     if count != 2
       n = n + "s"
       s_array << n
+    else
+      s_array = n
     end
   end
   s_array
