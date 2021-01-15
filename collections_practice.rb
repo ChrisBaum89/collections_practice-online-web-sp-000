@@ -39,6 +39,7 @@ def find_a(array)
     if n[0] = "a"
       a_array << n
     end
+  end
   a_array
 end
 
