@@ -27,7 +27,7 @@ end
 array = "blake", "ashley", "scott"
 def kesha_maker(array)
   array.each do |n|
-    
+
     puts "#{n[2] = "$"}"
     puts "#{n}"
   end
