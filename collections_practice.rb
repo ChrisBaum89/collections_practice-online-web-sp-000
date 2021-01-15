@@ -28,7 +28,7 @@ array = "blake", "ashley", "scott"
 def kesha_maker(array)
   array.each do |n|
     array_split = n.split
-    array_split[2] = $
+    array_split[2] = "$"
     array_split.join
   end
   binding.pry
